@@ -82,6 +82,13 @@ int main(void){
     front[2][1] = 1;
     front[2][2] = 1;
 
+    // glider 3
+    front[13][2] = 1;
+    front[14][0] = 1;
+    front[14][2] = 1;
+    front[15][1] = 1;
+    front[15][2] = 1;
+
     for (;;) {
         display();
         next();
